@@ -4,7 +4,7 @@ import NavbarApp from "../components/NavbarApp";
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className="vh-100">
       <NavbarApp />
     </div>
   );
