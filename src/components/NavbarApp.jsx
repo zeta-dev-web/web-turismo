@@ -1,7 +1,7 @@
-import { Toggle, Navbar, Nav } from 'rsuite';
-import HomeIcon from '@rsuite/icons/legacy/Home';
-import CogIcon from '@rsuite/icons/legacy/Cog';
-import 'rsuite/dist/rsuite.min.css';
+import { Toggle, Navbar, Nav } from "rsuite";
+import HomeIcon from "@rsuite/icons/legacy/Home";
+import CogIcon from "@rsuite/icons/legacy/Cog";
+import "rsuite/dist/rsuite.min.css";
 
 const NavbarApp = () => (
   <Navbar>
@@ -19,9 +19,6 @@ const NavbarApp = () => (
         </Nav.Menu>
       </Nav.Menu>
     </Nav>
-    <Nav pullRight>
-<div className=''><Toggle defaultChecked/>Modo Oscuro
-</div>    </Nav>
   </Navbar>
 );
 
