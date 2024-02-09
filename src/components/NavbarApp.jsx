@@ -8,16 +8,14 @@ const NavbarApp = () => (
     <Navbar.Brand href="#">TURISMO TRANCAS</Navbar.Brand>
     <Nav>
       <Nav.Item icon={<HomeIcon />}>Inicio</Nav.Item>
-      <Nav.Item>News</Nav.Item>
-      <Nav.Item>Products</Nav.Item>
+      <Nav.Item>Lugares Turísticos</Nav.Item>
+      <Nav.Item>Gastronomía</Nav.Item>
+      <Nav.Item>Ubicación</Nav.Item>
       <Nav.Menu title="Utilidades">
         <Nav.Item>Telefonos Utiles</Nav.Item>
         <Nav.Item>Horarios de Colectivos</Nav.Item>
-        <Nav.Menu title="Contacto">
-          <Nav.Item>Via email</Nav.Item>
-          <Nav.Item>Via telephone</Nav.Item>
+        <Nav.Item>Contacto</Nav.Item>
         </Nav.Menu>
-      </Nav.Menu>
     </Nav>
   </Navbar>
 );
