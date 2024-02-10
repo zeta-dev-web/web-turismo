@@ -2,20 +2,15 @@ import "../css/FooterApp.css";
 
 function FooterApp() {
   return (
-    <div className="container">
-      <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div className="contenedor2 d-flex flex-column">
+      <footer className="py-3 mt-auto d-flex flex-wrap justify-content-between align-items-center border-top color w-100">
         <div className="col-md-4 d-flex align-items-center text-center">
-          <a
-            href="/"
-            className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          >
+          <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
             <svg className="bi" width="30" height="24">
               <use xlinkHref="#bootstrap"></use>
             </svg>
           </a>
-          <span className="mb-3 mb-md-0 text-body-secondary">
-            ZetaDev & Leonel © 2023 Company, Inc
-          </span>
+          <span className="mb-3 mb-md-0 text-white">ZetaDev & Leonel © 2023 Company, Inc</span>
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
@@ -45,4 +40,5 @@ function FooterApp() {
     </div>
   );
 }
+
 export default FooterApp;
