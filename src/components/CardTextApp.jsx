@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardTextApp = () => {
   return (
-    <div className='ms-3'>
+    <div className='ms-3 me-2'>
         <img src="https://i.ibb.co/vJjg46N/trancas.jpg" alt="trancas" className='img-fluid'/>
       <h6>Trancas es una ciudad con un enorme peso histórico. El turista conocerá un pueblo que fue centro estratégico para la defensa de todo el norte en la época de la Independencia. 
 En un principio, la población se instaló en lo que hoy se conoce como “Villa Vieja de Trancas” pero en 1900, con la llegada del ferrocarril, debieron moverse a su actual emplazamiento donde se establecieron definitivamente. En la actual ciudad, pueden encontrarse opciones de alojamiento y gastronomía.

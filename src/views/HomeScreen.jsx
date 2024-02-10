@@ -18,22 +18,23 @@ const HomeScreen = () => {
     { titulo: 'Ubicación', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps" },
   ];
   return (
-    <div className="vh-100">
+    <div> 
       <NavbarApp />
       <CarouselApp />
-      <Row xs={1} md={3} className="g-3 ms-1 mt-4">
-      {cardsData.map((card, idx) => (
-        <Col key={idx} className="p-1">
-          <CardApp
-            titulo={card.titulo}
-            contenido={card.contenido}
-            icono={card.icono}
-            boton={card.boton}
-          />
-        </Col>
-      ))}
-    </Row>
-    <CardTextApp/>
+      <div className="contenedor p-0 ps-3 pe-3 m-0">
+  <Row xs={1} md={3} className="g-3 mt-4 justify-content-between flex-wrap">
+    {cardsData.map((card, idx) => (
+      <Col key={idx} className="">
+        <CardApp
+          titulo={card.titulo}
+          contenido={card.contenido}
+          icono={card.icono}
+          boton={card.boton}
+        />
+      </Col>
+    ))}
+  </Row>
+</div>   <div className="mt-4 mb-4"><CardTextApp/></div>
      <FooterApp />
         </div>
   );

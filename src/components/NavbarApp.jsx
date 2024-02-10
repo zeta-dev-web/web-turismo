@@ -1,23 +1,28 @@
-import { Toggle, Navbar, Nav } from "rsuite";
-import HomeIcon from "@rsuite/icons/legacy/Home";
-import CogIcon from "@rsuite/icons/legacy/Cog";
-import "rsuite/dist/rsuite.min.css";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavbarApp = () => (
-  <Navbar>
-    <Navbar.Brand href="#">TURISMO TRANCAS</Navbar.Brand>
-    <Nav>
-      <Nav.Item icon={<HomeIcon />}>Inicio</Nav.Item>
-      <Nav.Item>Lugares Turísticos</Nav.Item>
-      <Nav.Item>Gastronomía</Nav.Item>
-      <Nav.Item>Ubicación</Nav.Item>
-      <Nav.Menu title="Utilidades">
-        <Nav.Item>Telefonos Utiles</Nav.Item>
-        <Nav.Item>Horarios de Colectivos</Nav.Item>
-        <Nav.Item>Contacto</Nav.Item>
-        </Nav.Menu>
-    </Nav>
-  </Navbar>
+  <Navbar expand="lg" className="bg-body-tertiary">
+  <Container>
+    <Navbar.Brand href="#home">Turismo Trancas</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link href="#home">Inicio</Nav.Link>
+        <Nav.Link href="#link">Lugares Turísticos</Nav.Link>
+        <NavDropdown title="Utilidades" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Contacto</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">
+            Horarios de Colectivo
+          </NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Ubicacion</NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
 );
 
 export default NavbarApp;
