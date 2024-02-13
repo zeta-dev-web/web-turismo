@@ -19,7 +19,7 @@ const HomeScreen = () => {
     <div> 
       <CarouselApp />
       <div className="contenedor p-0 ps-3 pe-3 m-0">
-  <Row xs={1} md={3} className="g-3 mt-4 justify-content-between flex-wrap">
+  <Row xs={1} md={3} className="g-3 mt-1 justify-content-between flex-wrap">
     {cardsData.map((card, idx) => (
       <Col key={idx} className="">
         <CardApp
