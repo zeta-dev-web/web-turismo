@@ -10,14 +10,15 @@ const NavbarApp = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="#home">Inicio</Nav.Link>
-        <Nav.Link href="#link">Lugares Turísticos</Nav.Link>
+        <Nav.Link href="/">Inicio</Nav.Link>
+        <Nav.Link href="lugaresturisticos">Lugares Turísticos</Nav.Link>
+        <Nav.Link href="gastronomia">Gastronomia</Nav.Link>
         <NavDropdown title="Utilidades" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Contacto</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">
-            Horarios de Colectivo
+          <NavDropdown.Item href="comollegar">Como llegar</NavDropdown.Item>
+          <NavDropdown.Item href="HorariosdeColectivos">
+            Horarios de Colectivos
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Ubicacion</NavDropdown.Item>
+          <NavDropdown.Item href="contacto">Contacto</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

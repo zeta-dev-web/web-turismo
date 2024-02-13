@@ -1,7 +1,5 @@
 import { react, useEffect, useState } from "react";
-import NavbarApp from "../components/NavbarApp";
 import CarouselApp from "../components/CarouselApp";
-import FooterApp from "../components/FooterApp";
 import CardApp from "../components/CardApp";
 import "../css/HomeScreen.css"
 import Col from 'react-bootstrap/Col';
@@ -19,7 +17,6 @@ const HomeScreen = () => {
   ];
   return (
     <div> 
-      <NavbarApp />
       <CarouselApp />
       <div className="contenedor p-0 ps-3 pe-3 m-0">
   <Row xs={1} md={3} className="g-3 mt-4 justify-content-between flex-wrap">
@@ -35,7 +32,6 @@ const HomeScreen = () => {
     ))}
   </Row>
 </div>   <div className="mt-4 mb-4"><CardTextApp/></div>
-     <FooterApp />
         </div>
   );
 };
