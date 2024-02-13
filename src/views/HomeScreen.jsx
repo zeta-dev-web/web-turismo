@@ -11,9 +11,9 @@ import { SiGooglemaps } from "react-icons/si";
 
 const HomeScreen = () => {
   const cardsData = [
-    { titulo: 'Lugares Turísticos', contenido: 'Conoce los lugares historicos de Trancas...', icono:<FaMapSigns size={35}/>, boton:"Ver más..."},
-    { titulo: 'Gastronomía', contenido: 'Disfruta de los mejores platos regionales...', icono: <MdFoodBank size={35}/>, boton:"Ver más..."},
-    { titulo: 'Ubicación', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps" },
+    { titulo: 'Lugares Turísticos', contenido: 'Conoce los lugares historicos de Trancas...', icono:<FaMapSigns size={35}/>, boton:"Ver más...", ruta: "lugaresturisticos"},
+    { titulo: 'Gastronomía', contenido: 'Disfruta de los mejores platos regionales...', icono: <MdFoodBank size={35}/>, boton:"Ver más...", ruta: "/gastronomia"},
+    { titulo: 'Ubicación', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6" },
   ];
   return (
     <div> 
@@ -27,6 +27,7 @@ const HomeScreen = () => {
           contenido={card.contenido}
           icono={card.icono}
           boton={card.boton}
+          ruta={card.ruta}
         />
       </Col>
     ))}

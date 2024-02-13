@@ -1,7 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
-const CardApp =({titulo, contenido, icono, boton})=>{
+const CardApp =({titulo, contenido, icono, boton, ruta})=>{
 
 
 return(
@@ -13,7 +14,9 @@ return(
         <Card.Text>
           {contenido}
         </Card.Text>
-        <Button variant="success">{boton}</Button>
+        <Link to={ruta}>
+  <Button variant="success" className='mt-4 mb-1'>{boton}</Button>
+</Link>
       </Card.Body>
     </Card>
 </div>
