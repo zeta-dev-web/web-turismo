@@ -14,6 +14,7 @@ import ErrorScreen from "./views/ErrorScreen";
 function App() {
   return (
     <BrowserRouter>
+    <div className="vh-100 d-flex flex-column justify-content-between">
     <NavbarApp></NavbarApp>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
@@ -25,6 +26,7 @@ function App() {
         <Route path="/*" element={<ErrorScreen/>} />
       </Routes>
       <FooterApp></FooterApp>
+      </div>
     </BrowserRouter>
   );
 }
