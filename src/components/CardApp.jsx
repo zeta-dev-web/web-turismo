@@ -7,7 +7,7 @@ const CardApp =({titulo, contenido, icono, boton, ruta})=>{
 
 return(
 <div>
-<Card className='mt-2 p-0 m-0'>
+<Card  border="primary" className='mt-2 p-0 m-0'>
       <div className="text-center mt-2">{icono}</div>
       <Card.Body className='text-center'>
         <Card.Title>{titulo}</Card.Title>
