@@ -1,0 +1,22 @@
+.map-iframe-container {
+    width: 100%;
+  }
+  
+  .map-iframe {
+    width: 600px; /* Ancho completo por defecto */
+    height: 450px; /* Altura predeterminada para pantallas grandes */
+  }
+  
+  @media (max-width: 991px) {
+    .map-iframe {
+        width: 400px;
+      height: 300px; /* Altura para dispositivos medianos, ajusta según tus necesidades */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .map-iframe {
+        width: 400px;
+      height: 300px; /* Altura para dispositivos pequeños, ajusta según tus necesidades */
+    }
+  }

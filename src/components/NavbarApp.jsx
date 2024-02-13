@@ -6,7 +6,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const NavbarApp = () => (
   <Navbar expand="lg" className="bg-body-tertiary">
   <Container>
-    <Navbar.Brand href="/">Turismo Trancas</Navbar.Brand>
+  <Navbar.Brand href="/">
+            <img
+              alt=""
+              src="../src/assets/turismo-logo.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+           Turismo Trancas</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
