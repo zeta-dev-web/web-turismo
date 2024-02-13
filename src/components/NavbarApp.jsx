@@ -9,7 +9,7 @@ const NavbarApp = () => (
   <Navbar.Brand href="/">
             <img
               alt=""
-              src="/src/assets/turismo-logo.png"
+              src="./src/assets/turismo-logo.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
