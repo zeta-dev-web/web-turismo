@@ -18,16 +18,12 @@ const NavbarApp = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="/">Inicio</Nav.Link>
-        <Nav.Link href="lugaresturisticos">Lugares Turísticos</Nav.Link>
-        <Nav.Link href="gastronomia">Gastronomia</Nav.Link>
-        <NavDropdown title="Utilidades" id="basic-nav-dropdown">
-          <NavDropdown.Item href="comollegar">Como llegar</NavDropdown.Item>
-          <NavDropdown.Item href="HorariosdeColectivos">
-            Horarios de Colectivos
-          </NavDropdown.Item>
-          <NavDropdown.Item href="contacto">Contacto</NavDropdown.Item>
-        </NavDropdown>
+        <Nav.Link href="lugaresturisticos">Lugares Turísticos 🗺️</Nav.Link>
+        <Nav.Link href="gastronomia">Gastronomia 🍴</Nav.Link>
+        <Nav.Link href="Eventoslocales">Eventos Locales 🎉</Nav.Link>
+        <Nav.Link href="HorariosdeColectivos">Horarios de Colectivos 🚌</Nav.Link>
+        <Nav.Link href="Servicios">Servicios de Emergencias 🚨</Nav.Link>
+        <Nav.Link href="comollegar">Como llegar🌍</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
