@@ -11,15 +11,16 @@ import { SiGooglemaps } from "react-icons/si";
 
 const HomeScreen = () => {
   const cardsData = [
-    { titulo: 'Lugares Turísticos', contenido: 'Conoce los lugares historicos de Trancas...', icono:<FaMapSigns size={35}/>, boton:"Ver más...", ruta: "lugaresturisticos"},
-    { titulo: 'Gastronomía', contenido: 'Disfruta de los mejores platos regionales...', icono: <MdFoodBank size={35}/>, boton:"Ver más...", ruta: "/gastronomia"},
+    { titulo: 'Lugares Turísticos', contenido: 'Conoce los lugares historicos...', icono:<FaMapSigns size={35}/>, boton:"Ver más...", ruta: "lugaresturisticos"},
+    { titulo: 'Gastronomía', contenido: 'Disfruta de los mejores platos...', icono: <MdFoodBank size={35}/>, boton:"Ver más...", ruta: "/gastronomia"},
+    { titulo: 'Eventos Locales', contenido: 'Conoce las fiestas locales...', icono: <SiGooglemaps size={35}/>,boton:"Ver más...",ruta:"/eventoslocales" },
     { titulo: 'Ubicación', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6" },
   ];
   return (
     <div> 
       <CarouselApp />
       <div className="contenedor p-0 ps-3 pe-3 m-0">
-  <Row xs={1} md={3} className="g-3 mt-1 justify-content-between flex-wrap">
+  <Row xs={1} md={4} className="g-2 mt-1 justify-content-between flex-wrap">
     {cardsData.map((card, idx) => (
       <Col key={idx} className="">
         <CardApp
