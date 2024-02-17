@@ -23,7 +23,7 @@ const NavbarApp = () => (
         <Nav.Link href="Eventoslocales">Eventos Locales 🎉</Nav.Link>
         <Nav.Link href="HorariosdeColectivos">Horarios de Colectivos 🚌</Nav.Link>
         <Nav.Link href="Servicios">Servicios de Emergencias 🚨</Nav.Link>
-        <Nav.Link href="comollegar">Como llegar🌍</Nav.Link>
+        <Nav.Link href="comollegar">Como llegar 🌍</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
