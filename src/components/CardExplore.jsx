@@ -12,7 +12,7 @@ return(
       <Card.Body className='text-center'>
         <Card.Title><h4>{titulo}</h4></Card.Title>
         <Card.Img variant="top" src={imagen} />
-        <Card.Text>
+        <Card.Text className='mt-2'>
           {contenido}
         </Card.Text>
         <Link to={ruta}>

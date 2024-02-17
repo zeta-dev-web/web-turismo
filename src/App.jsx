@@ -4,7 +4,6 @@ import "./App.css";
 import NavbarApp from "./components/NavbarApp";
 import FooterApp from "./components/FooterApp";
 import HomeScreen from "./views/HomeScreen";
-import ContactScreen from "./views/ContactScreen";
 import FoodScreen from "./views/FoodScreen";
 import ExploreScreen from "./views/ExploreScreen";
 import UbiScreen from "./views/UbiScreen";
@@ -26,7 +25,6 @@ function App() {
         <Route path="EventosLocales" element={<EventsScreen />} />
         <Route path="Servicios" element={<ServiceScreen/>} />
         <Route path="HorariosdeColectivos" element={<TransportScreen />} />
-        <Route path="Contacto" element={<ContactScreen />} />
         <Route path="/*" element={<ErrorScreen/>} />
       </Routes>
       <FooterApp></FooterApp>
