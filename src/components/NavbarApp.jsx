@@ -17,7 +17,7 @@ const NavbarApp = () => (
            Turismo Trancas</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
+      <Nav className="me-auto text-center">
         <Nav.Link href="lugaresturisticos">Lugares Turísticos 🗺️</Nav.Link>
         <Nav.Link href="gastronomia">Gastronomia 🍴</Nav.Link>
         <Nav.Link href="Eventoslocales">Eventos Locales 🎉</Nav.Link>

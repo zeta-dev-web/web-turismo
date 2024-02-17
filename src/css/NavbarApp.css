@@ -1,9 +1,0 @@
-/* Estilos responsivos en tu archivo CSS */
-@media (max-width: 768px) {
-    .navbar-brand {
-      font-size: 1.5rem; /* Ajusta el tamaño del texto de la marca */
-    }
-    .nav-item {
-      font-size: 1rem; /* Ajusta el tamaño del texto de los elementos del menú */
-    }
-  }
