@@ -6,7 +6,7 @@
     border-color: #28a502!important;
     border-radius: 15px!important;
 }
-.card-body {
+#card-body {
     height: 480px;
     overflow: hidden;
   }

@@ -9,7 +9,7 @@ const CardExplore =({titulo, contenido, boton, imagen, ruta})=>{
 return(
 <div>
   <Card border="success" className='mt-2 p-0 m-0 cardcolor'>
-    <Card.Body className='text-center d-flex flex-column justify-content-between'>
+    <Card.Body className='text-center d-flex flex-column justify-content-between card-body'>
       <div>
         <Card.Title className=''><h4>{titulo}</h4></Card.Title>
         <Card.Img variant="top" src={imagen} />
