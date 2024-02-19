@@ -8,18 +8,20 @@ const CardExplore =({titulo, contenido, boton, imagen, ruta})=>{
 
 return(
 <div>
-<Card  border="sucess" className='mt-2 p-0 m-0 cardcolor'>
-      <Card.Body className='text-center'>
-        <Card.Title><h4>{titulo}</h4></Card.Title>
+  <Card border="success" className='mt-2 p-0 m-0 cardcolor'>
+    <Card.Body className='text-center d-flex flex-column justify-content-between'>
+      <div>
+        <Card.Title className=''><h4>{titulo}</h4></Card.Title>
         <Card.Img variant="top" src={imagen} />
-        <Card.Text className='mt-2'>
-          {contenido}
-        </Card.Text>
-        <Link to={ruta}>
-  <Button className='mt-4 mb-1 colorbutton'>{boton}</Button>
-</Link>
-      </Card.Body>
-    </Card>
+      </div>
+      <div className=''>
+        <Card.Text>{contenido}</Card.Text>
+        <div><Link to={ruta}>
+          <Button className='mt-2 mb-1 colorbutton'>{boton}</Button>
+        </Link></div>
+      </div>
+    </Card.Body>
+  </Card>
 </div>
     )
 }

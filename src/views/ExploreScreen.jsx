@@ -5,16 +5,22 @@ import CardExplore from '../components/CardExplore'
 import { FaMapSigns } from "react-icons/fa";
 import { MdFoodBank } from "react-icons/md";
 import { SiGooglemaps } from "react-icons/si";
+import boyero from '../assets/boyero.jpg'
+import iglesia from '../assets/iglesia.jpg'
+import iglesiaprincipal from '../assets/iglesiaprincipal.jpg'
+import pozo from '../assets/pozo.jpg'
+import plaza from '../assets/plaza.jpg'
+import pacto from '../assets/pacto.jpg'
 
 
 const ExploreScreen = () => {
   const cardsData = [
-    { titulo: 'Pozo San Francisco', contenido: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore excepturi id velit veniam porro voluptatem commodi quisquam maxime nam, dolores, alias praesentium, necessitatibus veritatis! Explicabo sint vel expedita sed minus praesentium consectetur debitis, ex repellendus non harum, aspernatur ad accusamus odio beatae architecto ratione a, veniam reprehenderit possimus! At!", boton:"Ver Ubicación", ruta: "lugaresturisticos", imagen:"https://www.eltucumano.com/fotos/notas/2021/07/23/210723191935_48911.jpg"},
-    { titulo: 'Plaza Principal', contenido: 'Disfruta de los mejores platos...', icono: <MdFoodBank size={35}/>, boton:"Ver más...", ruta: "/gastronomia"},
-    { titulo: 'Monumento', contenido: 'Conoce las fiestas locales...', icono: <SiGooglemaps size={35}/>,boton:"Ver más...",ruta:"/eventoslocales" },
-    { titulo: 'Iglesia Villa Vieja', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6" },
-    { titulo: 'Rio Boyero', contenido: 'Conoce las fiestas locales...', icono: <SiGooglemaps size={35}/>,boton:"Ver más...",ruta:"/eventoslocales" },
-    { titulo: 'Iglesia Principal', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6" },
+    { titulo: 'Pozo San Francisco', contenido: "El Pozo de San Francisco de Trancas, también conocido como Pozo del Pescado, es un sitio religioso y cultural de gran importancia en la provincia de Tucumán, Argentina. Se encuentra ubicado a 4 kilómetros de la ciudad de Trancas, sobre la ex ruta 9, y es un lugar de peregrinación para miles de fieles cada año.", boton:"Ver Ubicación", ruta: "lugaresturisticos", imagen:pozo},
+    { titulo: 'Plaza Principal', contenido: 'La Plaza Principal de Trancas, también conocida como Plaza San Martín, se encuentra ubicada en el corazón de la ciudad de Trancas, provincia de Tucumán, Argentina. Es un espacio verde de gran belleza y valor histórico, siendo uno de los lugares más emblemáticos de la ciudad.', icono: <MdFoodBank size={35}/>, boton:"Ver Ubicación", ruta: "/gastronomia", imagen:plaza},
+    { titulo: 'Pacto de las Trancas', contenido: 'El Monumento Pacto de Las Trancas, es una obra de arte que conmemora el histórico acuerdo firmado en 1817 por los gauchos de las provincias de Salta, Jujuy y Tucumán. Este pacto, gestado por el General Martín Miguel de Güemes, consolidó la unidad regional y fortaleció la lucha por la independencia argentina.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"/eventoslocales", imagen: pacto },
+    { titulo: 'Iglesia Villa Vieja', contenido: 'La Iglesia Vieja de Trancas, también conocida como Templo del Sagrado Corazón de Jesús, se encuentra ubicada en la Villa Vieja de Trancas. Construida a finales del siglo XVII, esta iglesia es una de las más antiguas de la provincia y un importante exponente de la arquitectura colonial.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6", imagen:iglesia },
+    { titulo: 'Rio Boyero', contenido: 'El Río Boyero de Trancas, también conocido como Río Trancas, es un río de montaña de la provincia de Tucumán, Argentina. Nace en las cumbres calchaquíes y atraviesa la localidad de Trancas, creando un oasis natural de incomparable belleza.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"/eventoslocales", imagen: boyero },
+    { titulo: 'Iglesia Principal', contenido: 'La iglesia Princial de Trancas, es la parroquia San Joaquin, situada en el corazón de la ciudad de Trancas. Es uno de los monumentos historicos y mas importantes por su historia. ', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6", imagen: iglesiaprincipal },
   
   ];
   return (

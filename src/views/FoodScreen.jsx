@@ -5,17 +5,21 @@ import CardExplore from '../components/CardExplore'
 import { FaMapSigns } from "react-icons/fa";
 import { MdFoodBank } from "react-icons/md";
 import { SiGooglemaps } from "react-icons/si";
+import loxon from '../assets/loxon.jpg';
+import laesquina from '../assets/laesquina.jpg';
+import losaltos from '../assets/losaltos.jpg';
+import foodmorfi from '../assets/foodmorfi.jpg';
+import lacasona from '../assets/lacasona.jpg';
 
 
 const FoodScreen = () => {
   const cardsData = [
-    { titulo: 'Pozo San Francisco', contenido: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore excepturi id velit veniam porro voluptatem commodi quisquam maxime nam, dolores, alias praesentium, necessitatibus veritatis! Explicabo sint vel expedita sed minus praesentium consectetur debitis, ex repellendus non harum, aspernatur ad accusamus odio beatae architecto ratione a, veniam reprehenderit possimus! At!", boton:"Ver Ubicación", ruta: "lugaresturisticos", imagen:"https://www.eltucumano.com/fotos/notas/2021/07/23/210723191935_48911.jpg"},
-    { titulo: 'Plaza Principal', contenido: 'Disfruta de los mejores platos...', icono: <MdFoodBank size={35}/>, boton:"Ver más...", ruta: "/gastronomia"},
-    { titulo: 'Monumento', contenido: 'Conoce las fiestas locales...', icono: <SiGooglemaps size={35}/>,boton:"Ver más...",ruta:"/eventoslocales" },
-    { titulo: 'Iglesia Villa Vieja', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6" },
-    { titulo: 'Rio Boyero', contenido: 'Conoce las fiestas locales...', icono: <SiGooglemaps size={35}/>,boton:"Ver más...",ruta:"/eventoslocales" },
-    { titulo: 'Iglesia Principal', contenido: 'Como llegar a Trancas...', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6" },
-  
+    { titulo: 'Loxon', contenido: "Cervecería Loxon es un refugio para los amantes de la cerveza artesanal en el corazón de Trancas, Tucumán. Este local combina la pasión por la cerveza con la calidez de un ambiente familiar, creando un espacio único para disfrutar de una experiencia cervecera memorable.", boton:"Ver Ubicación", ruta: "lugaresturisticos", imagen:loxon},
+    { titulo: 'La Esquina', contenido: 'La Esquina de Trancas es una sandwichería familiar que se ha convertido en un oasis de sabor y tradición en el corazón de la ciudad. Este local ha deleitado a locales y visitantes con sus exquisitos sándwiches elaborados con ingredientes frescos y de la más alta calidad.', icono: <MdFoodBank size={35}/>, boton:"Ver Ubicación", ruta: "/gastronomia", imagen:laesquina},
+    { titulo: 'La Casona', contenido: 'La Casona de Trancas es un restaurante familiar que se ha convertido en un emblema de la gastronomía tradicional tucumana. Este local ha deleitado a locales y visitantes con sus exquisitos platos elaborados con recetas caseras y productos frescos de la región.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"/eventoslocales", imagen:lacasona },
+    { titulo: 'Food Morfi', contenido: 'Food Morfi de Trancas es un restaurante único que ofrece una experiencia culinaria sin igual en la ciudad. Este local combina la pasión por la comida con la innovación y la creatividad, creando un espacio donde los sabores del mundo se fusionan en una explosión de sensaciones.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"https://maps.app.goo.gl/YCVdmd4VJHox8xyC6", imagen:foodmorfi },
+    { titulo: 'Bar Parador Gaz', contenido: 'Bar Gaz Trancas es un establecimiento ubicado en la ruta nacional 9, siendo un punto de encuentro popular para locales y viajeros. Ofrece un ambiente relajado y acogedor, ideal para disfrutar de un momento agradable con amigos o familia.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"/eventoslocales", imagen: lacasona },
+    { titulo: 'Los Altos', contenido: 'Bar Los Altos de Trancas es un lugar único, donde se fusionan la buena música, el ambiente distendido y la calidez del trato familiar. Este bar se ha convertido en un punto de encuentro para locales y visitantes que buscan disfrutar de una noche de diversión y entretenimiento.', icono: <SiGooglemaps size={35}/>,boton:"Ver Ubicación",ruta:"/eventoslocales", imagen: losaltos },  
   ];
   return (
     <div>
