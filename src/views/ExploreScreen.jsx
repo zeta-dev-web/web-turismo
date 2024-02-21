@@ -5,12 +5,12 @@ import CardExplore from '../components/CardExplore'
 import { FaMapSigns } from "react-icons/fa";
 import { MdFoodBank } from "react-icons/md";
 import { SiGooglemaps } from "react-icons/si";
-import boyero from '../assets/boyero.jpg'
-import iglesia from '../assets/iglesia.jpg'
-import iglesiaprincipal from '../assets/iglesiaprincipal.jpg'
-import pozo from '../assets/pozo.jpg'
-import plaza from '../assets/plaza.jpg'
-import pacto from '../assets/pacto.jpg'
+import boyero from '../assets/boyero.webp'
+import iglesia from '../assets/iglesia.webp'
+import iglesiaprincipal from '../assets/iglesiaprincipal.webp'
+import pozo from '../assets/pozo.webp'
+import plaza from '../assets/plaza.webp'
+import pacto from '../assets/pacto.webp'
 
 
 const ExploreScreen = () => {
