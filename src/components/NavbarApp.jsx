@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavbarApp = () => (
   <Navbar expand="lg" className="bg-body-tertiary">
-  <Container className='p-0 m-0 ms-2'>
+  <Container className='p-0 m-0 ms-2 me-2'>
   <Navbar.Brand href="/">
             <img
               alt="logo"
