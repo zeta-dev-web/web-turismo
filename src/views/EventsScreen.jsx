@@ -2,9 +2,6 @@ import React from 'react'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import CardExplore from '../components/CardExplore'
-import { FaMapSigns } from "react-icons/fa";
-import { MdFoodBank } from "react-icons/md";
-import { SiGooglemaps } from "react-icons/si";
 import festival from '../assets/festival.webp'
 import expo from '../assets/expo.webp'
 import sanfrancisco from '../assets/sanfrancisco.webp'

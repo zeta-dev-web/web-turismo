@@ -2,8 +2,6 @@ import React from 'react'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import CardExplore from '../components/CardExplore'
-import { FaMapSigns } from "react-icons/fa";
-import { MdFoodBank } from "react-icons/md";
 import { SiGooglemaps } from "react-icons/si";
 import boyero from '../assets/boyero.webp'
 import iglesia from '../assets/iglesia.webp'

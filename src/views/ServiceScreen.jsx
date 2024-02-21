@@ -2,17 +2,18 @@ import React from 'react'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import CardExplore from '../components/CardExplore'
-import { FaMapSigns } from "react-icons/fa";
-import { MdFoodBank } from "react-icons/md";
-import { SiGooglemaps } from "react-icons/si";
+import bombero from '../assets/bombero.webp'
+import policia from '../assets/policia.webp'
+import medico from '../assets/medico.webp'
+import seguridad from '../assets/seguridad.webp'
 
 
 const ServiceScreen = () => {
   const cardsData = [
-    { titulo: 'Bomberos', contenido: "Por emergencias llamar al 0381 569-2310", boton:"Ver Ubicación", ruta: "https://maps.app.goo.gl/FwJJM8vUXpEh8sAz9", imagen:"https://www.eltucumano.com/fotos/notas/2021/07/23/210723191935_48911.jpg"},
-    { titulo: 'Policia', contenido: 'Por emergencias llamar al 0381 438-8140', icono: <MdFoodBank size={35}/>, boton:"Ver Ubicación", ruta: "https://maps.app.goo.gl/mCJ6WKQLajmSqBnc9"},
-    { titulo: 'Cuerpo de Seguridad Municipal', contenido: 'Por emergencias llamar al 0381 568-1778', icono: <MdFoodBank size={35}/>, boton:"Ver Ubicación", ruta: "https://maps.app.goo.gl/FyDiLiE22kt627C86"},
-    { titulo: 'Hospital', contenido: 'Por emergencias llamar al 107', icono: <SiGooglemaps size={35}/>,boton:"Abrir en Google Maps",ruta:"https://maps.app.goo.gl/wSqXGDkykuX8yhzY6" } 
+    { titulo: 'Bomberos', contenido: "Por emergencias llamar al 0381 569-2310", boton:"Ver Ubicación", ruta: "https://maps.app.goo.gl/Dzy5RKZha2xX7Qw6A", imagen: bombero},
+    { titulo: 'Policia', contenido: 'Por emergencias llamar al 0381 438-8140', boton:"Ver Ubicación", ruta: "https://maps.app.goo.gl/JTXkq9AAWnxuSNeP9", imagen: policia,},
+    { titulo: 'Seguridad Municipal', contenido: 'Por emergencias llamar al 0381 568-1778', boton:"Ver Ubicación", ruta: "https://maps.app.goo.gl/SAZB9FdyTmmLMQRUA", imagen: seguridad},
+    { titulo: 'Hospital', contenido: 'Por emergencias llamar al 107', imagen: medico, boton:"Ver Ubicación", ruta:"https://maps.app.goo.gl/xv6GoT7gFBB8mpkt7" } 
   ];
   return (
     <div>
