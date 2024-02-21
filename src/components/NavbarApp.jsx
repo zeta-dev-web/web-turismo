@@ -10,9 +10,9 @@ const NavbarApp = () => (
             <img
               alt="logo"
               src="https://i.ibb.co/NmXYY0F/logo.png"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
+              width="45"
+              height="45"
+              className="d-inline-block"
             />{' '}
            Turismo Trancas</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
