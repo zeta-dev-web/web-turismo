@@ -13,7 +13,7 @@ function FooterApp() {
   <span className="mb-3 mb-md-0 text-white mt-3 mb-2">ZetaDev & Leonel© 2024</span>
 </div>
 <div className="col-md-3 d-none d-md-flex align-items-center text-center mx-auto">
-  <h6 className="ms-5 mb-3 mb-md-0 text-white mt-2">Municipalidad de Trancas 2024</h6>
+  <h6 className="mb-3 mb-md-0 text-white mt-2 text-center">Municipalidad de Trancas 2024</h6>
 </div>
         <ul className="nav col-md-3 justify-content-end d-flex mx-auto">
           <li className="ms-3">
