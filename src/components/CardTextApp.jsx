@@ -8,9 +8,7 @@ const CardTextApp = () => {
 
 Déjate sorprender por las vistas panorámicas, los ríos y su gastronomía. Practica senderismo, cabalgatas, pesca o simplemente relájate en la tranquilidad del pueblo. Recorre la Villa Vieja de Trancas, conoce la Iglesia de Nuestra Señora del Rosario y participa de las tradiciones locales.<br/>
 
-No te pierdas el Festival del Caballo, un evento único que reúne a jinetes de toda la región. Celebra las fiestas patronales con música, bailes y comidas típicas. Llévate un recuerdo único hecho a mano por los artesanos locales.<br/>
-
-<h5>Trancas te espera para que vivas una experiencia inolvidable. Ven a descubrir este paraíso escondido en Tucumán.</h5></h6>
+No te pierdas el Festival del Caballo, un evento único que reúne a jinetes de toda la región. Celebra las fiestas patronales con música, bailes y comidas típicas. Llévate un recuerdo único hecho a mano por los artesanos locales.<br/></h6><h5 className='mt-1 text-start'>Trancas te espera para que vivas una experiencia inolvidable. Ven a descubrir este paraíso escondido en Tucumán.</h5>
     </div>
   )
 }

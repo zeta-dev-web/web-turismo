@@ -7,10 +7,10 @@ import principal4 from "../assets/principal4.webp";
 function CarouselApp() {
   return (
     <Carousel autoplay  placement={false} className="custom-slider">
-        <img src={principal1} height="400"/>
-        <img src={principal2} height="400"/>
-        <img src={principal3} height="400" />
-        <img src={principal4} height="400" />
+        <img src={principal1} alt='imagenprincipal1' height="400"/>
+        <img src={principal2} alt='imagenprincipal2' height="400"/>
+        <img src={principal3} alt='imagenprincipal3' height="400" />
+        <img src={principal4} alt='imagenprincipal4' height="400" />
     </Carousel>
   );
 }
