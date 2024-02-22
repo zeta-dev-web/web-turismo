@@ -5,6 +5,7 @@
 .cardcolor{
     border-color: #28a502!important;
     border-radius: 15px!important;
+    box-shadow: 4px 4px 10px #66431f
 }
 .card-body {
     height: 150px;

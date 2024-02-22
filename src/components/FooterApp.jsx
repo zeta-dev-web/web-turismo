@@ -10,7 +10,7 @@ function FooterApp() {
     <div className="contenedor2 d-flex flex-column">
       <footer className="py-1 mt-auto d-flex flex-wrap justify-content-between align-items-center border-top color w-100">
       <div className="col-md-3 d-none d-md-flex align-items-center text-center mx-auto">
-  <span className="mb-3 mb-md-0 text-white mt-3 mb-2">ZetaDev & Leonel© 2024</span>
+  <span className="mb-3 mb-md-0 text-white mt-3 mb-2">ZetaDev & Leonel Sanagua © 2024</span>
 </div>
 <div className="col-md-3 d-none d-md-flex align-items-center text-center mx-auto">
   <h6 className="mb-3 mb-md-0 text-white mt-2 text-center">Municipalidad de Trancas 2024</h6>
