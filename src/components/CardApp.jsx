@@ -15,7 +15,7 @@ return(
         <Card.Text>
           {contenido}
         </Card.Text>
-        <Link to={ruta}>
+        <Link to={ruta} target="_blank" rel="noopener noreferrer">
   <Button className='mt-4 mb-1 colorbutton'>{boton}</Button>
 </Link>
       </Card.Body>
