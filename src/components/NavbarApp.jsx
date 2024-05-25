@@ -4,15 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 import "../css/NavbarApp.css"
 
 const NavbarApp = () => (
-  <Navbar expand="lg" className="bg-success">
+  <Navbar expand="lg" className="bg-success custom-navbar-height">
     <Container fluid className="px-0">
     <Navbar.Brand href="/" className="d-flex align-items-center">
           <img
             alt="logo"
-            src="https://i.ibb.co/NmXYY0F/logo.png"
-            width="45"
-            height="45"
-            className="d-inline-block align-top"
+            src="https://i.ibb.co/YbzVHsf/icons-caballo.png"
+            width="50"
+            height="35"
+            className="d-inline-block align-top text-light"
           />
           <h4 className="text-light ms-2 mb-1">Turismo Trancas</h4>
         </Navbar.Brand>

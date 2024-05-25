@@ -1,3 +1,7 @@
+.custom-navbar-height{
+  height: 3rem;
+}
+
 .navbar-brand {
     text-decoration: none !important
   }
