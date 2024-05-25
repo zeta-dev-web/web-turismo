@@ -1,13 +1,27 @@
-.colorbutton{
-    background-color: #8B5A2B!important;
-    border-color: #66421f!important
+.custom-font {
+    font-family:Arial, Helvetica, sans-serif
 }
-.cardcolor{
-    border-color: #28a502!important;
-    border-radius: 15px!important;
-    box-shadow: 4px 4px 10px #66431f
+
+.colorbutton {
+    background-color: #8B5A2B !important;
+    border-color: #66421f !important;
 }
+
+.colorbutton:hover {
+    background-color: #25180b !important; 
+    border-color: #8B5A2B !important; }
+
+.cardcolor {
+    border-color: #28a502 !important;
+    border-radius: 15px !important;
+    box-shadow: 4px 4px 10px #66431f;
+}
+
 .card-body {
     height: 150px;
     overflow: hidden;
-  }
+}
+
+.color-icon{
+    color: #66431f;
+}
