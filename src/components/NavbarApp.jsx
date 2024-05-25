@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "../css/NavbarApp.css"
 
 const NavbarApp = () => (
-  <Navbar expand="lg" className="bg-success custom-navbar-height">
+  <Navbar expand="lg" className="bg-success">
     <Container fluid className="px-0">
     <Navbar.Brand href="/" className="d-flex align-items-center">
           <img
