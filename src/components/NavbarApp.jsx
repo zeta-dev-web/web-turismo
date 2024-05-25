@@ -14,7 +14,7 @@ const NavbarApp = () => (
             height="45"
             className="d-inline-block align-top"
           />
-          <h3 className="text-light ms-2 mb-1">Turismo Trancas</h3>
+          <h4 className="text-light ms-2 mb-1">Turismo Trancas</h4>
         </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
