@@ -11,7 +11,7 @@ return(
 <Card  border="sucess" className='mt-2 p-0 m-0 cardcolor'>
       <div className="text-center mt-2">{icono}</div>
       <Card.Body className='text-center card-body'>
-        <Card.Title>{titulo}</Card.Title>
+        <Card.Title className='fw-bold'>{titulo}</Card.Title>
         <Card.Text>
           {contenido}
         </Card.Text>

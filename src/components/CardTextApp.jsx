@@ -6,7 +6,7 @@ const CardTextApp = () => {
   return (
     <div className="text-center">
       <img src={trancas} alt="trancas" width="380" className="img-fluid card-imagetext" />
-      <h5 className="ms-3 me-3 mt-2 text-center">
+      <h5 className="ms-3 me-3 mt-2 text-center lh-1">
         Trancas, en el corazón de las Cumbres Calchaquíes, te invita a descubrir
         un remanso de paz y belleza natural. <br/>
         Este destino te ofrece una experiencia única para conectar con la naturaleza, la historia y la cultura.
