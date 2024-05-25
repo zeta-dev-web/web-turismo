@@ -6,6 +6,7 @@ import bombero from '../assets/bombero.webp'
 import policia from '../assets/policia.webp'
 import medico from '../assets/medico.webp'
 import seguridad from '../assets/seguridad.webp'
+import WhatsappApp from '../components/WhatsappApp';
 
 
 const ServiceScreen = () => {
@@ -32,6 +33,7 @@ const ServiceScreen = () => {
     ))}
   </Row>
 </div> 
+<WhatsappApp></WhatsappApp>
     </div>
   )
 }
