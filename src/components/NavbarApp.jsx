@@ -16,7 +16,7 @@ const NavbarApp = () => (
           />
           <h4 className="text-light ms-2 mb-1">Turismo Trancas</h4>
         </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-2"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto text-center">
           <Nav.Link className="text-light me-xl-3 ms-xl-4" href="lugaresturisticos">Lugares Turísticos 🗺️</Nav.Link>
