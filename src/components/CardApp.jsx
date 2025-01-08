@@ -8,7 +8,7 @@ const CardApp =({titulo, contenido, icono, boton, ruta})=>{
 
 return(
 <div className='custom-font'>
-<Card  border="sucess" className='mt-2 p-0 m-0 cardcolor'>
+<Card  border="sucess" className='mt-2 p-2 m-0 cardcolor'>
       <div className="text-center mt-2 color-icon">{icono}</div>
       <Card.Body className='text-center card-body'>
         <Card.Title className='fw-bold'>{titulo}</Card.Title>
